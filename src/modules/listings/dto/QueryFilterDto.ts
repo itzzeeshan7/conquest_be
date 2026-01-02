@@ -1,0 +1,70 @@
+export interface IQueryFilter {
+    salesOrRental: any;
+    type: string;
+    search: string;
+    priceSqfFrom: number;
+    priceSqfTo: number;
+    monthliesFrom: number;
+    monthliesTo: number;
+    totalRoomsFrom: number;
+    totalRoomsTo: number;
+    sqftFrom: number;
+    sqftTo: number;
+    yearBuiltFrom: number;
+    yearBuiltTo: number;
+    propertyType: string;
+    bedroomsFrom: number;
+    bedroomsTo: number;
+    bathroomsFrom: number;
+    bathroomsTo: number;
+    doorman: boolean;
+    gym: boolean;
+    garage: boolean;
+    pool: boolean;
+    elevator: boolean;
+    pets: boolean;
+    washerDayer: boolean;
+    prewar: boolean;
+    rooftop: boolean;
+    outdorSpace: boolean;
+    buildingLaundry: boolean
+    newDevelopment: boolean;
+    priceFrom: number;
+    priceTo: number;
+}
+
+export class QueryFilter implements IQueryFilter {
+    salesOrRental: any;
+    type: string;
+    search: string;
+    priceSqfFrom: number;
+    priceSqfTo: number;
+    monthliesFrom: number;
+    monthliesTo: number;
+    totalRoomsFrom: number;
+    totalRoomsTo: number;
+    sqftFrom: number;
+    sqftTo: number;
+    yearBuiltFrom: number;
+    yearBuiltTo: number;
+    propertyType: string;
+    bedroomsFrom: number;
+    bedroomsTo: number;
+    bathroomsFrom: number;
+    bathroomsTo: number;
+    doorman: boolean;
+    gym: boolean;
+    garage: boolean;
+    pool: boolean;
+    elevator: boolean;
+    pets: boolean;
+    washerDayer: boolean;
+    prewar: boolean;
+    rooftop: boolean;
+    outdorSpace: boolean;
+    buildingLaundry: boolean
+    newDevelopment: boolean;
+    priceFrom: number;
+    priceTo: number;
+    constructor() { }
+}
